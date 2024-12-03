@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: my-app-container
-        image: nginx:latest
+        image: esebogdanolaru/actions-lab1:latest
         ports:
         - containerPort: 3000
         env:
